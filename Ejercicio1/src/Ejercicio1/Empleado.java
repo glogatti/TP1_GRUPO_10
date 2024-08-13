@@ -2,9 +2,10 @@ package Ejercicio1;
 
 public class Empleado {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	int id;
+	
+	String nombre;
+	
+	int edad;
 
 }
