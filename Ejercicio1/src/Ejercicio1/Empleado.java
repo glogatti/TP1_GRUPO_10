@@ -2,10 +2,10 @@ package Ejercicio1;
 
 public class Empleado {
 
-	int id;
+	private int id;
 	
-	String nombre;
+	private String nombre;
 	
-	int edad;
+	private int edad;
 
 }
