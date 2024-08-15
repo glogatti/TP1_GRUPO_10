@@ -13,23 +13,37 @@ public class Empleado {
 	private int edad;
 	
 	
-	//constructor
+	//constructor vacio
 	public Empleado() {
         this.id = contadorId++; 
 
     }
 
+	//constructor que recibe nombre y edad como parametros
+	
+	public Empleado(String nombre, int edad ) {
+	this.id = contadorId++; 
+	this.nombre = nombre;
+	this.edad = edad;
+		
+	}
+	
+	
 	//Getters y Setters
 	
 	 public int getId() {
 	        return id;
 	    }
 	
+ // -----------------------------------
+	
+	 //  ¿Esto deberiamos borrarlo ?
 
-/*	public void setId(int id) {
+	 /*	public void setId(int id) {
 		this.id = id;
 	}
-*/
+    */
+// ------------------------------------
 	  public String getNombre() {
 	        return nombre;
 	    }
