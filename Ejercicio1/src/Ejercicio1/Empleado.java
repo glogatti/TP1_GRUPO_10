@@ -16,6 +16,8 @@ public class Empleado {
 	//constructor vacio
 	public Empleado() {
         this.id = contadorId++; 
+        this.nombre = "sin nombre";
+        this.edad = 99;
 
     }
 
@@ -35,15 +37,7 @@ public class Empleado {
 	        return id;
 	    }
 	
- // -----------------------------------
-	
-	 //  ¿Esto deberiamos borrarlo ?
 
-	 /*	public void setId(int id) {
-		this.id = id;
-	}
-    */
-// ------------------------------------
 	  public String getNombre() {
 	        return nombre;
 	    }
