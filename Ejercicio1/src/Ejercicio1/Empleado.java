@@ -36,7 +36,14 @@ public class Empleado {
 		return contadorId + 1;
 	}
 	
-	
+	@Override
+	public String toString() {
+	    return "Empleado: " +
+	            "id=" + id +
+	            ", nombre='" + nombre + '\'' +
+	            ", edad=" + edad +
+	            '.';
+	}
 	//Getters y Setters
 	
 	 public int getId() {
@@ -59,6 +66,10 @@ public class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	
+	
+	
+	
 	
 
 }
