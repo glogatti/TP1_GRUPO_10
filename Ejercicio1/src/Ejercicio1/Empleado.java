@@ -30,6 +30,12 @@ public class Empleado {
 		
 	}
 	
+	//métodos
+	public static int devuelveProximoId()
+	{
+		return contadorId + 1;
+	}
+	
 	
 	//Getters y Setters
 	
