@@ -31,19 +31,20 @@ public class Empleado {
 	}
 	
 	//métodos
+	
+	//Version int del metodo
+	/*
 	public static int devuelveProximoId()
 	{
 		return contadorId;
 	}
-	
+	*/
 	
 	//Version String del metodo, con el formato del enunciado
-	/*
 	public static String devuelveProximoId()
 	{
 		return "El proximo ID sera el " + contadorId;
 	}
-	*/
 	
 	
 	@Override

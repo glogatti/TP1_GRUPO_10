@@ -12,8 +12,17 @@ public class Principal {
 		//Empleado 2
 		vEmpleados[1] = new Empleado("jose",27 );
 		
+		//Empleado 3
+		vEmpleados[2] = new Empleado();
+		
+		//Empleado 4
+		vEmpleados[3] = new Empleado();
+		
+		//Empleado 5
+		vEmpleados[4] = new Empleado("Gustavo", 44);
+		
 		//Mostrar datos
-		for(int i = 0; i < 2; i++)
+		for(int i = 0; i < 5; i++)
 		{
 			System.out.println(vEmpleados[i].toString());
 		}
